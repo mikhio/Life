@@ -1,0 +1,19 @@
+.line {
+	width: 100%;
+	height: 25px;
+	background: gray;
+	display: flex;
+	margin-top: 2px;
+}
+.cubeRed {
+	width: 25px;
+	height: 25px;
+	background: #c53c3c;
+	margin-left: 2px;
+}
+.cubeGray {
+	width: 25px;
+	height: 25px;
+	background: gray;
+	margin-left: 2px;
+}
