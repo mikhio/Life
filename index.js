@@ -1,8 +1,7 @@
 var yearBt = 2006
 var mybt = new Date(2006, 4, 15)
 
-var dateNow = new Date();
-var yearNow = dateNow.getFullYear();
+var yearNow = yearBt + 65;
 var body = document.body;
 var week = 1000 * 60 * 60 *24 * 7;
 var now = new Date();
@@ -20,7 +19,7 @@ for(var i = yearBt; i <= yearNow; i++) {
 		if (ny <= now.getTime() && ny >= mybt.getTime()) {
 			elcube.className = 'cubeRed';
 		} else {
-			elcube.className = 'cubeGray';
+			elcube.className = 'cubeBlue';
 		}
 	}
 }
