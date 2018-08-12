@@ -12,6 +12,12 @@ for(var i = yearBt; i <= yearNow; i++) {
 	eline.className = 'line';
 	body.appendChild(eline);
 	var ny = new Date(i, 0, 1).getTime();
+
+  var elcube = document.createElement('div');
+  eline.appendChild(elcube);
+  elcube.className = 'year';
+  elcube.innerText = i;
+
 	for(var c = 1; c <= 52; c++) {
 		var elcube = document.createElement('div');
 		eline.appendChild(elcube);
