@@ -1,5 +1,5 @@
-var yearBt = 1980
-var mybt = new Date(1980, 6, 24)
+var yearBt = 2006
+var mybt = new Date(2006, 4, 15)
 
 var yearNow = yearBt + 65;
 var body = document.body;
